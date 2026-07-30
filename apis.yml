@@ -1,8 +1,29 @@
 aid: mattilda
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mattilda.png
 name: Mattilda
-description: 'Mattilda is a company surfaced as a portfolio company of qed-investors and added to the
-  API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  Mattilda is a financial management platform for private educational
+  institutions across Latin America, operating in Mexico, Colombia, and Ecuador.
+  It automates tuition collection and payment processing, offers tuition advances
+  that guarantee schools receive full monthly tuition on the first day regardless
+  of family payment rates, and provides academic operations and admissions tools
+  under its Algebraix product line. Families can pay through multiple channels,
+  including WhatsApp. Mattilda operates under the oversight of Mexico's financial
+  authorities CNBV and CONDUSEF and is backed by QED Investors. Mattilda does not
+  currently expose a public developer API, SDKs, or documentation portal; this
+  profile captures the company's public identity, status page, and Vanta-hosted
+  trust center.
 url: https://raw.githubusercontent.com/api-evangelist/mattilda/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Fintech
+- Payments
+- Education
+- EdTech
+- Tuition
+- Latin America
+- Mexico
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,28 @@ maintainers:
 common:
 - type: Website
   url: https://mattilda.io/
+- type: Blog
+  url: https://mattilda.io/blog/
+- type: Login
+  url: https://app.mattilda.io/
+- type: TermsOfService
+  url: https://mattilda.io/terminos-y-condiciones/
+- type: PrivacyPolicy
+  url: https://mattilda.io/aviso-privacidad/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/mattilda.io/
+- type: StatusPage
+  url: https://status.mattilda.io/
+- type: DomainSecurity
+  url: security/mattilda-domain-security.yml
+- type: TrustCenter
+  url: security/mattilda-trust-center.yml
+- type: Lifecycle
+  url: lifecycle/mattilda-lifecycle.yml
+- type: WellKnown
+  url: well-known/mattilda-well-known.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v1
