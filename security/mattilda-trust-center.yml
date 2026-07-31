@@ -1,0 +1,18 @@
+generated: '2026-07-20'
+method: searched
+source: live fetch of https://trust.mattilda.io/ (Vanta-hosted Trust Center)
+name: Mattilda Trust Center
+url: https://trust.mattilda.io/
+platform: Vanta
+status: 200
+verified: true
+notes: >-
+  Mattilda publishes a Vanta-hosted Trust Center at trust.mattilda.io (HTTP 200,
+  Vanta Trust Report SPA). The page is a client-rendered single-page app, so the
+  specific certifications, subprocessors, and downloadable documents behind it
+  could not be extracted programmatically and are intentionally NOT enumerated
+  here to avoid fabrication. The Trust Center is linked from the mattilda.io
+  footer as "Security". Mattilda additionally states regulatory oversight by the
+  Mexican financial authorities CNBV and CONDUSEF on its public site.
+certifications: []
+subprocessors: []

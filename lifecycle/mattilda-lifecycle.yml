@@ -1,0 +1,23 @@
+generated: '2026-07-20'
+method: searched
+source: live probes of mattilda.io status/legal surface
+status_page:
+  url: https://status.mattilda.io/
+  platform: Better Stack
+  status: 200
+  verified: true
+legal:
+- type: TermsOfService
+  url: https://mattilda.io/terminos-y-condiciones/
+  status: 200
+- type: PrivacyPolicy
+  url: https://mattilda.io/aviso-privacidad/
+  status: 200
+versioning_policy: null
+deprecation_policy: null
+sla: null
+notes: >-
+  Mattilda operates a public status page on Better Stack at status.mattilda.io.
+  No public API versioning policy, deprecation/Sunset policy, or SLA document was
+  found (Mattilda publishes no external developer API; api.mattilda.io returns
+  503 and is not a public surface).

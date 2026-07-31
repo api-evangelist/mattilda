@@ -1,0 +1,25 @@
+generated: '2026-07-20'
+method: probed
+source: live HTTP probes of mattilda.io well-known paths
+host: mattilda.io
+paths:
+- path: /.well-known/security.txt
+  status: 404
+  file: null
+- path: /.well-known/openid-configuration
+  status: 404
+  file: null
+- path: /.well-known/oauth-authorization-server
+  status: 404
+  file: null
+- path: /.well-known/api-catalog
+  status: 404
+  file: null
+- path: /.well-known/ai-plugin.json
+  status: 404
+  file: null
+notes: >-
+  No well-known metadata documents are published at mattilda.io. All probed
+  paths returned HTTP 404. Absence is expected: Mattilda exposes no public API,
+  developer portal, or OAuth authorization server (api.mattilda.io returns 503
+  and is not a public developer surface).
